@@ -118,10 +118,31 @@ a:active {
   background-image: url('img/popcast.png');
 }
 
+#social-media {
+  margin-top: 3rem;
+  background-image: url('img/sailor-moon-crystal.gif');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#txt-social-media {
+  background-color: rgba(22, 22, 22, 0.7);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 30px;
+}
+
 footer {
   background-color: #ff4cea;
   display: block;
   margin: 0px;
-  margin-top: 3rem;
   text-align: center;
 }
