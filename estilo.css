@@ -34,6 +34,7 @@ section {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -99,6 +100,10 @@ a:active {
 
 #img-card-2 {
   background-image: url('img/precure.webp');
+}
+
+#img-card-3 {
+  background-image: url('img/sailor-moon-92.webp');
 }
 
 footer {
