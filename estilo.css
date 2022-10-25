@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: hsl(0, 2%, 10%);
+  color: #f6f7f7;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  border-bottom: 1px solid #ff4cea;
+  margin-bottom: 1rem;
+}
+
+article {
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 400px;
+  height: 260px;
+  background-color: hsl(180, 3%, 13%);
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: end;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 35px 0px rgba(222, 113, 222, 1);
+}
+
+a {
+  text-decoration: none;
+  color: #fbffff;
+}
+
+a:active {
+  text-decoration: none;
+  color: #f6f7f7;
+}
+
+.title-card {
+  padding: 0%;
+  background-color: rgba(22, 22, 22, 0.5);
+  margin: 0px;
+}
+
+.img-card {
+  width: 400px;
+  height: 200px;
+  border-radius: 0px 0px 20px 20px;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: end;
+}
+
+.txt-card {
+  background-color: rgba(22, 22, 22, 0.5);
+  margin: 0px;
+  padding: 1rem;
+  padding-top: 0%;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#img-card-1 {
+  background-image: url('img/sailor-moon.webp');
+}
+
+#img-card-2 {
+  background-image: url('img/precure.webp');
+}
+
+footer {
+  margin-top: 6rem;
+  background-color: #ff4cea;
+  display: block;
+  margin: 0px;
+  text-align: center;
+}
