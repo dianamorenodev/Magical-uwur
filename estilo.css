@@ -110,10 +110,18 @@ a:active {
   background-image: url('img/sakura-card-captor.jpg');
 }
 
+#img-card-5 {
+  background-image: url('img/dani.png');
+}
+
+#img-card-6 {
+  background-image: url('img/popcast.png');
+}
+
 footer {
-  margin-top: 6rem;
   background-color: #ff4cea;
   display: block;
   margin: 0px;
+  margin-top: 3rem;
   text-align: center;
 }
