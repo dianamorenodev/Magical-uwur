@@ -19,10 +19,28 @@ body {
 header {
   border-bottom: 1px solid #ff4cea;
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 10px;
 }
 
 article {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -55,6 +73,7 @@ section {
 
 .card:hover {
   box-shadow: 10px 10px 35px 0px rgba(222, 113, 222, 1);
+  transform: translateY(-10px);
 }
 
 a {
@@ -73,7 +92,7 @@ a:active {
   margin: 0px;
 }
 
-.img-card {
+.content-card {
   width: 400px;
   height: 200px;
   border-radius: 0px 0px 20px 20px;
@@ -116,6 +135,22 @@ a:active {
 
 #img-card-6 {
   background-image: url('img/popcast.png');
+}
+
+.card2 {
+  width: 400px;
+  height: 660px;
+  background-color: hsl(180, 3%, 13%);
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: end;
 }
 
 #social-media {
